@@ -1,0 +1,10 @@
+body{
+    margin: 0px;
+    background-color: bisque;
+}
+
+nav{
+    background-image: linear-gradient(red, white);
+    height: 80px;
+    
+}
