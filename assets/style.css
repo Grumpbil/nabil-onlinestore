@@ -8,3 +8,9 @@ nav{
     height: 80px;
     
 }
+
+.container1{
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+}
