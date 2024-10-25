@@ -19,3 +19,17 @@ nav{
     height: 70px;
     padding: 3px 15px;
 }
+
+.col-1{
+    flex: 1;
+}
+
+.col-2{
+    flex: 2;
+
+}
+
+.nav-menu li{
+    list-style: none;
+    float: left;
+}
