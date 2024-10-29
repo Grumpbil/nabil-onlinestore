@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
 }
 
 nav{
@@ -32,4 +32,25 @@ nav{
 .nav-menu li{
     list-style: none;
     float: left;
+    padding: 0px 50px;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.menu-dropdown{
+    position: relative;
+    display: inline;
+}
+
+.submenu-dropdown{
+    display: none;
+    background-color: rgb(255, 103, 103);
+    position: absolute;
+    width: 100%;
+    padding: 30px;
+}
+
+.menu-dropdown:hover .submenu-dropdown{
+    display: block;
 }
