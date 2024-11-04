@@ -54,3 +54,7 @@ nav{
 .menu-dropdown:hover .submenu-dropdown{
     display: block;
 }
+
+header{
+    background-color: aliceblue;
+}
