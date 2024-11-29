@@ -108,3 +108,8 @@ header img{
     padding:  20px 0px 40px 0px;
     background-color: rgb(255, 127, 127);
 }
+
+.category{
+    background-color:   orangered;
+    padding: 30px 50px;
+}
