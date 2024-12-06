@@ -20,7 +20,15 @@ nav{
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 54, 54);
+    margin: 30px auto;
+}
+
+.container-product{
+    width: 100%;
     margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -134,3 +142,8 @@ header img{
     background-color: rgb(255, 131, 131);
 }
 
+.box{
+    width: 26%;
+    background-color: white;
+    margin: 40px;
+}
