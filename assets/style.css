@@ -173,3 +173,27 @@ header img{
     height: 350px;
     border-radius: 60px 30px;
 }
+
+.latestproducts h3{
+    padding: 20px;
+    font-size: 35pz;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.latestproducts p{
+    color: rgb(71, 156, 31);
+    font-size: 25px;
+    text-shadow: 4px 4px 3px black;
+}
+
+.latestproducts a{
+    text-decoration: none;
+    background-color: rgb(224, 165, 37);
+    padding: 20px;
+    border-radius: 60px 30px;
+    border: solid black 2px;
+    color: black;
+    text-shadow: none;
+}
+
+
