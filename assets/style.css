@@ -37,11 +37,11 @@ nav{
 }
 
 .col-1{
-    flex: 1;
+    flex: 2;
 }
 
 .col-2{
-    flex: 2;
+    flex: 1;
 }
 
 .col-3{
@@ -172,18 +172,21 @@ header img{
     width: 80%;
     height: 350px;
     border-radius: 60px 30px;
+    border: solid black 4px;
 }
 
 .latestproducts h3{
-    padding: 20px;
-    font-size: 35pz;
+    padding: 50px;
+    font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
+    width: 40%;
 }
 
 .latestproducts p{
     color: rgb(71, 156, 31);
     font-size: 25px;
     text-shadow: 4px 4px 3px black;
+    padding-top: 40px;
 }
 
 .latestproducts a{
