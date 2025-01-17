@@ -49,13 +49,18 @@ nav{
 }
 
 
-.nav-menu li{
+.nav-menu li a{
     list-style: none;
     float: left;
     padding: 0px 50px;
     color: white;
     font-family: monospace;
     font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-menu li{
+    
 }
 
 .menu-dropdown{
