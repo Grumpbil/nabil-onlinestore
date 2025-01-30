@@ -23,8 +23,8 @@
                     <li class="menu-dropdown">
                         <a href="">MEMBER</a>
                         <ul class="submenu-dropdown">
-                            <li><a href="login.html"></a>SIGN IN</li>
-                            <li><a href=""></a>REGISTER</li>
+                            <li><a href="login.html">SIGN IN</a></li>
+                            <li><a href="">REGISTER</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -56,17 +56,19 @@
                     </div>
                     <div class="col-2">
                         <table>
-                            <div class="col-1">
-                                <form action="/login" method="post">
-                                    <label for="username">Username:</label>
-                                    <input type="text" id="username" name="username" required>
-                                    
-                                    <label for="password">Password:</label>
-                                    <input type="password" id="password" name="password" required>
-                                    
+                            <tr>
+                                <td><label for="username">Username:</label></td>
+                                <td><input type="text" id="username" name="username" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="password">Password:</label></td>
+                                <td><input type="password" id="password" name="password" required></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="text-align: center;">
                                     <button type="submit">Login</button>
-                                </form>
-                            </div> 
+                                </td>
+                            </tr>
                         </table>
                     </div>
                 </div>
