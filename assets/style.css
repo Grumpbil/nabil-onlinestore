@@ -230,10 +230,12 @@ input[type="text"], input[type="email"], input[type="password"]{
 }
 
 button{
-    padding: 10px;
-    margin: 10px;
-    background-color: rgb(255, 0, 0);
+    padding: 30px;
+    margin: 30px;
+    font-size: 30px;
+    background-color: rgb(202, 32, 32);
     color: white;
-    border: none;
+    border: solid 6px rgb(104, 0, 0);
     border-radius: 20px;
+
 }
