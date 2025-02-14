@@ -242,3 +242,10 @@ button{
     border-radius: 20px;
 
 }
+
+label{
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+    font-family: monospace;
+}
