@@ -233,7 +233,7 @@ input[type="text"], input[type="email"], input[type="password"], textarea{
 }
 
 button{
-    padding: 30px;
+    padding: 13px;
     margin: 30px;
     font-size: 30px;
     background-color: rgb(202, 32, 32);
@@ -248,4 +248,8 @@ label{
     margin: 10px;
     color: white;
     font-family: monospace;
+}
+
+iframe{
+    padding-right: 20px;
 }
