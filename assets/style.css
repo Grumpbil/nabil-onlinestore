@@ -155,6 +155,7 @@ header img{
 .container2 h1{
     text-align: center;
     font-size: 80px;
+    margin-bottom: 20px;
     color: orange; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -162,8 +163,10 @@ header img{
 .container2 p{
     text-align: center;
     color: white;
+    margin-top: 0px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
+
 }
 
 .product{
@@ -238,8 +241,4 @@ button{
     border: solid 6px rgb(104, 0, 0);
     border-radius: 20px;
 
-}
-
-.form-header{
-    padding-bottom: 90px;
 }
